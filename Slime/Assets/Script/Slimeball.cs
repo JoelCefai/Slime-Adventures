@@ -10,7 +10,6 @@ public class Slimeball : MonoBehaviour
 	public GameObject impactEffect;
 
 
-	// Use this for initialization
 	void Start()
 	{
 	rb.velocity = transform.right * speed;
